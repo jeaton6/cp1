@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("/img/kente.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -23,6 +23,12 @@ h6 {
 
 p {
   line-height: 1.75;
+  font-family: "Calibri Light", "Calibri", sans-serif;
+  font-size: 18px;
+}
+
+em {
+  color: #3f2a14;
 }
 
 .text-faded {
@@ -253,4 +259,8 @@ p {
 
 .font-weight-light {
   font-weight: 100 !important;
+}
+
+.cloth {
+  opacity: .6;
 }

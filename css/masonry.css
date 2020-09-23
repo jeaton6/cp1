@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.masonry {
+  margin: .4em auto;
+  max-width: 760px;
+  column-gap: .3em;
+  align-items: center;
+}
+
+.item {
+  background: #fff;
+  padding: .2em;
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 1;
+  }
+}
