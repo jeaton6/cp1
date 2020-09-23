@@ -8,18 +8,23 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
 .masonry {
   margin: .4em auto;
   max-width: 760px;
-  column-gap: .3em;
+  column-gap: 1em;
   align-items: center;
 }
 
 .item {
   background: #fff;
-  padding: .2em;
+  padding: 1em;
   text-align: center;
-  margin: auto;
+  margin-bottom: 1em;
+  border-radius: 10px;
 }
 
 @media only screen and (min-width: 1024px) {
