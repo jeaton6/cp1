@@ -20,13 +20,12 @@
   <!-- Custom styles for this template -->
   <link href="css/business-casual.min.css" rel="stylesheet">
   <link href="css/masonry.css" rel="stylesheet">
-
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav" style:"position:fixed">
     <div class="container">
       <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Ties for Change</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +38,10 @@
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item px-lg-4">
+          <li class="nav-item active px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
           </li>
-          <li class="nav-item active px-lg-4">
+          <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
           </li>
           <li class="nav-item px-lg-4">
@@ -53,27 +52,38 @@
     </div>
   </nav>
 
-  <div class="masonry">
-    <div class="item">
-      <img class="full" src="img/tie1.jpg"/>
-      <h2>$20</h2>
+  <section class="page-section about-heading">
+    <div class="container">
+      <div class="about-heading-content">
+        <div class="row">
+          <div class="col-xl-9 col-lg-10 mx-auto">
+            <div class="bg-faded rounded p-5">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Want to learn more?</span>
+                <span class="section-heading-lower">Contact us</span>
+              </h2>
+              <p>Email: phineas@ferb.com</p>
+              <p class="mb-0">Phone: (801)000-0000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="my-h2">Who we are</h2>
+  <div class="founders">
+    <div class="item-narrow">
+      <img class="smallpic" src="img/perry.png"/>
     </div>
 
-    <div class="item">
-      <img class="full" src="img/tie2.jpg"/>
-      <h2>$20</h2>
+    <div class="item-narrow">
+      <img class="smallpic" src="img/ducky-momo.jpg"/>
     </div>
 
-    <div class="item">
-      <img class="full" src="img/tie3.jpg"/>
-      <h2>$20</h2>
+    <div class="item-narrow">
+      <img class="smallpic" src="img/phineas.png"/>
     </div>
-
-    <div class="item">
-      <img class="full" src="img/tie4.jpg"/>
-      <h2>$20</h2>
-    </div>
-
   </div>
 
   <footer class="footer text-faded text-center py-5">
